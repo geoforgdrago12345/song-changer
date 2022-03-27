@@ -31,7 +31,7 @@ function draw() {
         stroke("black");
         circle(leftwristX, leftwristY, 20);
         song.stop();
-        if (status2 == false ) {
+        if (status == false ) {
             song2.play()
             song2.setVolume(1)
             document.getElementById("song").innerHTML = "song = slow trap";
